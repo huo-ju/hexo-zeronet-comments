@@ -1,0 +1,20 @@
+{
+ "address": "15JScXCxfgcFisufEXAxdJa8RLXEoc66Rv",
+ "files": {},
+ "ignore": ".*",
+ "inner_path": "data/users/content.json",
+ "modified": 0.0,
+ "signs": { },
+ "user_contents": {
+  "cert_signers": {
+   "zeroid.bit": ["1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz"]
+  },
+  "permission_rules": {
+   ".*": {
+    "files_allowed": "data.json",
+    "max_size": 10000
+   }
+  },
+  "permissions": {"bad@zeroid.bit": false}
+ }
+}

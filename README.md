@@ -30,6 +30,31 @@ $ hexo clean
 $ hexo generate
 ```
 
+### 3. Zeronet site configuration
+
+Copy `share/content.json` to  `data/users/` in your site’s directory.
+
+Modify your site’s root content.json, add following code:
+
+```
+ "ignore": "data/.*",
+  "includes": {
+    "data/users/content.json": {
+      "signers": [],
+      "signers_required": 1
+    }
+  },
+
+```
+
+Copy `share/dbschema.json` to your site’s directory.
+
+Sign the root content.json modifications by pressing the “Sign” button on the sidebar.
+
+Then keep the sidebar open and change “content.json” to “data/users/content.json” and press the “Sign” button again.
+
+Press the Reload button, then the Rebuild button on the sidebar to generate the database.
+
 ## License
 
 GNU
