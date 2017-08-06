@@ -1,0 +1,33 @@
+{
+  "name": "hexo-zeronet-comments",
+  "version": "0.1.0",
+  "main": "index",
+  "dependencies": {
+    "hexo-fs": "^0.2.1",
+    "md5": "^2.2.1"
+  },
+  "description": "A hexo plugin that add the comment feature for build a zeronet site.",
+  "devDependencies": {},
+  "author": {
+    "email": "virushuo@gmail.com",
+    "name": "Huo Ju",
+    "url": "http://127.0.0.1:43110/huoju.bit"
+  },
+  "keywords": [
+    "zeronet",
+    "blog",
+    "comments",
+    "node.js"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Huo Ju",
+      "email": "virushuo@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/virushuo/hexo-zeronet-comments.git"
+  }
+}
