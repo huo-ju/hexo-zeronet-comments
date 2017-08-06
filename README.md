@@ -32,7 +32,7 @@ $ hexo generate
 
 ### 3. Zeronet site configuration
 
-Copy `share/content.json` to  `data/users/` in your site’s directory.
+Copy `share/content.json` to  `data/users/` in your site's directory, and change the `address` to your site's address. 
 
 Modify your site’s root content.json, add following code:
 
