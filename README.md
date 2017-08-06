@@ -27,7 +27,7 @@ Add the following `zeronet_comments_html()` and `zeronet_comments()` helper tag 
 
 ``` bash
 $ hexo clean
-$ hexo server
+$ hexo generate
 ```
 
 ## License
